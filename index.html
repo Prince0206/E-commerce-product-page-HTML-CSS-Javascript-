@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.ico" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <script src="main.js" defer></script>
+    <script src="gallery.js" defer></script>
+    <script src="cart.js" defer></script>
+
+    <title>E-commerce products page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar">
+          <section class="nav-first">
+            <img
+              class="menu-icon"
+              src="img/hamburger icon.png"
+              width="50"
+              height="50"
+              viewBox="0 0 153 73"
+              fill="none"
+              fill="#115586"
+              fill-rule="evenodd"
+              alt="menu-icon"
+            />
+
+            <div class="logo">
+              <img src="img/Logo.svg" alt="sneakers logo" />
+            </div>
+            <div class="backdrop"></div>
+            <div class="nav-links active">
+              <i class="fa fa-close"></i>
+              <a href="#">Collections</a>
+              <a href="#">Men</a>
+              <a href="#">Women</a>
+              <a href="#">About</a>
+              <a href="#">Contact</a>
+            </div>
+          </section>
+          <section class="nav-second">
+            <div class="cart">
+              <i class="fa fa-shopping-cart" ait="cart icon"></i>
+              <div class="cart-container">
+                <div class="cart-title">Cart</div>
+                <div class="cart-items empty">
+                  <p class="cart-empty">Your cart is empty</p>
+                </div>
+                <button class="checkout empty">Checkout</button>
+              </div>
+              <div class="cart-count">
+                <span class="qty">0</span>
+              </div>
+            </div>
+            <div class="avatar">
+              <img src="img/passport photo.jpg" alt="avatar" />
+            </div>
+          </section>
+        </nav>
+      </header>
+
+      <section class="main">
+        <div class="default gallery">
+          <div class="main-img">
+            <img class="active" src="img/nikesneaker.png" alt="product-image" />
+            <img src="img/menshirt.png" alt="product-image" />
+            <img src="img/longsleeves.png" alt="product-image" />
+            <img src="img/cap.png" alt="product-image" />
+          </div>
+          <div class="thumb-list">
+            <div class="active">
+              <img src="img/nikesneaker.png" alt="product image thumbnail" />
+            </div>
+            <div>
+              <img src="img/menshirt.png" alt="product image thumbnail" />
+            </div>
+            <div>
+              <img src="img/longsleeves.png" alt="product image thumbnail" />
+            </div>
+            <div>
+              <img src="img/cap.png" alt="product image thumbnail" />
+            </div>
+          </div>
+        </div>
+
+        <div class="lightbox">
+          <div class="gallery">
+            <div class="main-img">
+              <span class="icon-close">
+                <i class="fa fa-close"></i>
+              </span>
+              <span class="icon-prev">
+                <i class="fa fa-chevron-left"></i>
+              </span>
+              <span class="icon-next">
+                <i class="fa fa-chevron-right"></i>
+              </span>
+              <img
+                class="active"
+                src="img/nikesneaker.png"
+                alt="product-image"
+              />
+              <img src="img/menshirt.png" alt="product-image" />
+              <img src="img/longsleeves.png" alt="product-image" />
+              <img src="img/cap.png" alt="product-image" />
+            </div>
+            <div class="thumb-list">
+              <div class="active">
+                <img src="img/nikesneaker.png" alt="product image thumbnail" />
+              </div>
+              <div>
+                <img src="img/menshirt.png" alt="product image thumbnail" />
+              </div>
+              <div>
+                <img src="img/longsleeves.png" alt="product image thumbnail" />
+              </div>
+              <div>
+                <img src="img/cap.png" alt="product image thumbnail" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content">
+          <h3>AzubiShop</h3>
+          <h2 class="product-name">Fall Limited Edition Accessories</h2>
+          <p class="product-desc">
+            These low-profile Accessories are your perfect casual wear
+            companion. Featuring a durable fabrics. They will withstand
+            everything the weather can offer.
+          </p>
+          <div class="price-info">
+            <div class="price">
+              <span class="current-price">$95.00</span>
+              <span class="discount">50%</span>
+            </div>
+            <div class="prev-price">$180.00</div>
+          </div>
+          <div class="add-to-cart-container">
+            <div class="counter">
+              <button class="minus">
+                <i class="fa fa-minus"></i>
+              </button>
+              <span class="count">0</span>
+              <button class="plus">
+                <i class="fa fa-plus"></i>
+              </button>
+            </div>
+            <button class="add-to-cart">
+              <span>
+                <i class="fa fa-shopping-cart" ait="cart icon"></i>
+              </span>
+              <span>Add to cart</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--   
+       Add to cart. -->
+
+    <!--  <div class="attribution">
+        Challenge by 
+        <a href="https://my-portfolio-five-liard-53.vercel.app/" target="_blank">
+            Frontend Mentor
+        </a> Coded by <a href="https://github.com/Prince0206"> Prince Larbi Wireko</a>
+    </div> -->
+  </body>
+</html>
